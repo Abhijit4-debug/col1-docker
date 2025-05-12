@@ -1,0 +1,3 @@
+services:
+  col1:
+    image: ghcr.io/abhijit4-debug/col1:latest
