@@ -2,3 +2,4 @@ services:
   col1:
     image: ghcr.io/abhijit4-debug/client:latest
     command: fx collaborator start -n 1
+    working_dir:  /workspace
