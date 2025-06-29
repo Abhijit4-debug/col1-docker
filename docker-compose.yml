@@ -1,8 +1,9 @@
 services:
   col1:
   # image: ghcr.io/abhijit4-debug/col1:modified
-    image: ghcr.io/abhijit4-debug/client:1.9
-    user: root  # ← this line runs container as root
+    # image: ghcr.io/abhijit4-debug/client:1.9  # histology
+    iamge: ghcr.io/abhijit4-debug/client_mnist:1.9
+    user: root 
     working_dir: /workspace
     command: fx collaborator start -n 1
 
